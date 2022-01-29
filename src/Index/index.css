@@ -1,0 +1,56 @@
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("./wallpaperflare.com_wallpaper\ \(3\).jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead h1,
+.masthead .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 5.5rem;
+  }
+}
+body {
+  background-color: #fcbf49;
+}
+.wrapper {
+  margin: 10vh;
+}
+
+.card {
+  border: none;
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  overflow: hidden;
+  border-radius: 20px;
+  min-height: 450px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+
+  @media (max-width: 768px) {
+    min-height: 350px;
+  }
+
+  @media (max-width: 420px) {
+    min-height: 300px;
+  }
+}

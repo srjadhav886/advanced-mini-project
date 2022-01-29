@@ -1,0 +1,13 @@
+.bgimg{
+    /* background: url(images/british-museum.jpg); */
+}
+
+.contentbg{
+    background-color: black;
+    color: white;
+    /* background-position: fixed; */
+    opacity: 0.75;
+    height: 100vh;
+    width: 230vh;
+}
+
