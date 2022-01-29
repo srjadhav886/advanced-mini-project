@@ -67,6 +67,7 @@ function Login() {
           };
           sessionStorage.setItem("userdata", JSON.stringify(userdata));
           sessionStorage.setItem("userSession", response.data.email);
+          localStorage.setItem("user_id", response.data.id);
           localStorage.setItem("user", response.data.email);
           // console.log(JSON.parse(sessionStorage.user).id);
           window.location = "/user";
